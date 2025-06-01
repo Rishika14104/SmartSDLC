@@ -51,5 +51,9 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
+# output:
 
+![Image](https://github.com/user-attachments/assets/95de8370-b2f6-41ef-95d3-75b02bd505d5)
+
+![Image](https://github.com/user-attachments/assets/9f9406cd-8e7e-436f-82c1-0c033ebb23ee)
 
