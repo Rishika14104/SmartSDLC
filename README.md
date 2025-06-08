@@ -134,11 +134,15 @@ print("🚀 Your SmartSDLC app is live at:", public_url)
 
 4. **Click the public URL shown in the output to use the app.**
 
+
 📁 Project Structure
 
+
+```python
 ├── Smart_app.py          # Streamlit app source code
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
+```
 
 💡 Example Prompts
 
