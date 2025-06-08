@@ -36,10 +36,9 @@ ibm-granite/granite-3.3-2b-instruct
 
 1. **Install dependencies:**
 
-```python
 !pip install streamlit transformers torch pyngrok accelerate sentencepiece
 
-2.  **Save your Streamlit code as Smart_app.py:
+2. *Save your Streamlit code as Smart_app.py:**
 
 %%writefile Smart_app.py
 
@@ -113,7 +112,7 @@ elif choice == "Test Case Generation":
         else:
             st.warning("Please input requirements.")
 
-Run the app with ngrok:
+3. **Run the app with ngrok:**
 
 from pyngrok import ngrok
 import os
@@ -129,7 +128,7 @@ time.sleep(5)
 public_url = ngrok.connect(8501)
 print("🚀 Your SmartSDLC app is live at:", public_url)
 
-Click the public URL shown in the output to use the app.
+4. **Click the public URL shown in the output to use the app.**
 
 📁 Project Structure
 
@@ -159,6 +158,11 @@ print(calculate_area(5))
 ➤ Test Case Generation
 
 The system should allow users to register by providing a unique email and password. Upon successful registration, the user should receive a confirmation email. The system must validate the email format and ensure the password is at least 8 characters long.
+
+# OUTPUT :
+
+
+
 
 
 
