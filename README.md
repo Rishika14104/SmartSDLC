@@ -183,9 +183,7 @@ The system should allow users to register by providing a unique email and passwo
 
 ![Image](https://github.com/user-attachments/assets/242968ff-f60f-4c83-83a5-8617a7e163e7)
 
-![Image](https://github.com/user-attachments/assets/d8be49a5-4801-460b-be88-c234e81bcecb)
 
-![Image](https://github.com/user-attachments/assets/db6950bd-302d-4398-8abb-b5366ecf2aa7)
 
 
 
