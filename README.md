@@ -117,14 +117,14 @@ elif choice == "Test Case Generation":
 from pyngrok import ngrok
 import os
 
-# Run Streamlit app in background
+Run Streamlit app in background
 os.system("streamlit run Smart_app.py --server.port 8501 &")
 
-# Wait a bit for the app to start
+Wait a bit for the app to start
 import time
 time.sleep(5)
 
-# Open ngrok tunnel to the Streamlit app
+Open ngrok tunnel to the Streamlit app
 public_url = ngrok.connect(8501)
 print("🚀 Your SmartSDLC app is live at:", public_url)
 
