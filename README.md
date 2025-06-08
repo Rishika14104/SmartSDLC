@@ -36,12 +36,13 @@ ibm-granite/granite-3.3-2b-instruct
 
 1. **Install dependencies:**
 
+```python
 !pip install streamlit transformers torch pyngrok accelerate sentencepiece
+```
 
 2. *Save your Streamlit code as Smart_app.py:**
 
-%%writefile Smart_app.py
-
+```python
 %%writefile "Smart_app.py"
 import streamlit as st
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
@@ -111,9 +112,11 @@ elif choice == "Test Case Generation":
             st.write(cases)
         else:
             st.warning("Please input requirements.")
+```
 
 3. **Run the app with ngrok:**
 
+```python
 from pyngrok import ngrok
 import os
 
@@ -127,6 +130,7 @@ time.sleep(5)
 Open ngrok tunnel to the Streamlit app
 public_url = ngrok.connect(8501)
 print("🚀 Your SmartSDLC app is live at:", public_url)
+```
 
 4. **Click the public URL shown in the output to use the app.**
 
@@ -160,6 +164,24 @@ print(calculate_area(5))
 The system should allow users to register by providing a unique email and password. Upon successful registration, the user should receive a confirmation email. The system must validate the email format and ensure the password is at least 8 characters long.
 
 # OUTPUT :
+
+![Image](https://github.com/user-attachments/assets/5d11aab3-a5ed-48ce-9bc2-458425a78e52)
+
+![Image](https://github.com/user-attachments/assets/12a2d697-250c-4575-a08f-1ff2c8735feb)
+
+![Image](https://github.com/user-attachments/assets/1b6a0e6c-e9a7-48c8-ac24-b8af886c77ae)
+
+![Image](https://github.com/user-attachments/assets/975d79f9-fde5-43e8-b3dd-9db39badf334)
+
+![Image](https://github.com/user-attachments/assets/cd07f87a-d2df-44d9-a56f-59c8c71dbfd8)
+
+![Image](https://github.com/user-attachments/assets/ec716b30-ab3d-4564-bae8-532d5b5072be)
+
+![Image](https://github.com/user-attachments/assets/242968ff-f60f-4c83-83a5-8617a7e163e7)
+
+![Image](https://github.com/user-attachments/assets/d8be49a5-4801-460b-be88-c234e81bcecb)
+
+![Image](https://github.com/user-attachments/assets/db6950bd-302d-4398-8abb-b5366ecf2aa7)
 
 
 
